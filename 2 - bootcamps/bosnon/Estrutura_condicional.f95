@@ -3,7 +3,7 @@ PROGRAM condicionais
 
     !Declaração de variáveis
     INTEGER :: num = 0
-    CHARACTER(35) :: msg = 'Digite um número para avaliação: '
+    CHARACTER(50) :: msg = 'Digite um número para avaliação: '
 
     WRITE(*, '(A)') msg
     READ(*,*) num
