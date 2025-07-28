@@ -1,0 +1,19 @@
+# Binários e objetos compilados
+*.exe
+*.o
+*.obj
+*.mod
+*.out
+
+# Diretórios de build
+build/
+cmake-build*/
+dist/
+
+# Configurações locais do VSCode
+.vscode/
+
+# Arquivos temporários de editores
+*.swp
+*.tmp
+*.bak
